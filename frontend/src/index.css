@@ -17,3 +17,23 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }
+main {
+  padding: 1rem;
+}
+.products {
+  display: flex; /*da slike budu jedna pored druge*/
+  flex-wrap: wrap; /*kada nema mesta u jednom redu da se prebaci u sledeci*/
+  justify-content: center;
+}
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem; /*razmak izmedju proizvoda*/
+}
+.product img {
+  width: 100%;
+  max-width: 400px;
+  height: 300px; /* postavka visine na određenu vrednost */
+}
+.product-info {
+  padding: 1rem;
+}
