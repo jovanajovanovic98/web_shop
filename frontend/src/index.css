@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: #404040;
+  padding: 1rem; /*unutrašnji prostor veličine 16 piksela na sve četiri strane*/
+}
+header a {
+  /*odnosi se na elemente 'a' u header-u i to su linkovi*/
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
